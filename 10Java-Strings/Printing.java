@@ -12,7 +12,7 @@ public class Printing {
 
 }
 /*
-Types of Printing in Java:
+!Types of Printing in Java:
 1. System.out.println(): This method prints the specified message to the console and moves the cursor to the next line. It is commonly used for printing messages and variables.
 
 2. System.out.print(): This method prints the specified message to the console without moving the cursor to the next line. It is useful when you want to print multiple items on the same line.

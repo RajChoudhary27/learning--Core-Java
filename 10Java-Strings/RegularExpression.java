@@ -1,8 +1,15 @@
 
 public class RegularExpression {
     public static void main(String[] args) {
-        
+        //Example of using regular expressions in Java:
+        String input = "Hello, World!";
+        String regex = "Hello"; // Regular expression to match the word "Hello"
+        if (input.matches(regex)) {
+            System.out.println("Match found!"); // Output: Match found!
+        } else {
+            System.out.println("Match not found."); 
     }
+}
 }
 /*
 ~ Regular Expressions in Java:
@@ -86,4 +93,8 @@ if (matcher.matches()) {
 } else {
     System.out.println("Pattern does not match.");
 }
+
+Telegram
+String input = "raj@gmail.com";
+System.out.println(input.matches(".*gmail.*"));  output:true
 */
