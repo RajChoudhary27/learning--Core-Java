@@ -21,4 +21,9 @@ public class ThisKeyword {
 } 
 /*
 This keyword in Java is a reference variable that refers to the current object. It is used to differentiate between instance variables and local variables when they have the same name. The this keyword can also be used to call other constructors in the same class, and to pass the current object as an argument to a method or constructor.
+
+
+this will execute the constructor of the same class.
+if we want to run 2 constructor one is default and second one parametrized then we use this.
+
 */
