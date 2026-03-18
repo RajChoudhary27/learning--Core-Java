@@ -20,4 +20,11 @@ public class MethodOveriding {
 }
 /*
 Method overriding tab hota hai jab child class parent class ke method ko same name, same parameters ke saath dobara define karti hai.
+
+! Rules of Method Overriding
+✔ Same method name
+✔ Same parameters
+✔ Inheritance required
+✔ Method must not be static/final/private
+✔ Return type can be same or covariant
 */

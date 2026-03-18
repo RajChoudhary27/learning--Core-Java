@@ -17,5 +17,5 @@ A package in Java is a namespace that groups related classes and interfaces toge
 In simple words:
 Package = Folder that contains related Java classes
 Just like we organize files into folders on our computer, Java organizes classes into packages.
-
+Ty
 */
