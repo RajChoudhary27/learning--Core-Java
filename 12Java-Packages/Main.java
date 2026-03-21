@@ -6,6 +6,8 @@ public class Main {
         Calc c=new Calc(1,2);
         AdCalc k=new AdCalc();
         k.add(1, 7);
+      // or
+      //  Tools.Calc e=new Calc(1,2);
     }
 }
 
