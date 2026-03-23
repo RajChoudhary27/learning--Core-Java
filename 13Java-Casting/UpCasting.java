@@ -21,6 +21,7 @@ public class UpCasting {
     }
 }
 /*
+
 Upcasting is used to achieve runtime polymorphism and make code flexible and reusable.
 🔥 1. What is Upcasting?
 💡 Definition
@@ -30,4 +31,5 @@ Jab hum child class ke object ko parent class ke reference me store karte hain, 
 * Important *
 Reference decides → kaunsa method accessible hai  
 Object decides → kaunsa method run hoga
+
 */
