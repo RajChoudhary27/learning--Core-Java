@@ -1,6 +1,14 @@
+class A{
+    public void show () throws Exception
+    {
+           System.out.println(10/0);
+           System.out.println("hello");
+    }
+}
 public class EH06 {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws Exception {
+       A obj=new A(); 
+       obj.show();
     }
 }
 // =============================================
