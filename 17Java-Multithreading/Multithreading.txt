@@ -1,0 +1,35 @@
+
+/*
+Multithreading in Java is a powerful feature that allows concurrent execution of two or more threads. A thread is a lightweight process that can run concurrently with other threads within the same program. Multithreading can improve the performance of a program by allowing multiple tasks to be executed simultaneously.
+
+How to Create a Thread in Java:
+1. By Extending the Thread Class:
+   You can create a thread by extending the Thread class and overriding its run() method. The run() method contains the code that will be executed by the thread.
+
+2. By Implementing the Runnable Interface:
+   You can also create a thread by implementing the Runnable interface and providing an implementation for the run() method. Then, you can create a Thread object and pass the Runnable instance to it. 
+
+3. By Using Lambda Expressions:
+   In Java 8 and later, you can use lambda expressions to create threads in a more concise way. This is particularly useful when you want to create a thread that executes a simple task.
+
+   ! Interview Questions:
+   1. What is the difference between a process and a thread?
+   An process is an independent program that runs in its own memory space, while a thread is a lightweight unit of execution that shares the same memory space with other threads in the same process. Threads are more efficient than processes because they have less overhead and can communicate with each other more easily.
+
+   2. How do you create a thread in Java?
+   You can create a thread in Java by either extending the Thread class, implementing the Runnable interface, or using lambda expressions. Each method involves defining the run() method that contains the code to be executed by the thread.
+   
+   3. What is the purpose of the run() method in a thread?
+   The run() method contains the code that will be executed by the thread when it is started.
+
+   4. What is the difference between the start() and run() methods in a thread?
+   The start() method is used to start a thread and causes the run() method to be executed in a new thread of execution. The run() method, on the other hand, is just a normal method that contains the code to be executed by the thread. If you call the run() method directly, it will not create a new thread and will execute in the current thread instead.
+
+   5. How can you ensure that a thread has completed its execution before the main thread continues?
+   You can use the join() method to ensure that a thread has completed its execution before the main thread continues. The join() method causes the current thread to wait until the thread on which it is called has finished executing.
+
+   6. What are some common issues that can arise with multithreading, and how can you address them?  
+   Common issues with multithreading include race conditions, deadlocks, and thread starvation. To address these issues, you can use synchronization mechanisms such as synchronized blocks or locks to control access to shared resources, avoid circular dependencies between threads to prevent deadlocks, and ensure that all threads have a fair chance to execute to prevent thread starvation. 
+
+
+*/

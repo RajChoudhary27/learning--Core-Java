@@ -1,0 +1,30 @@
+/*
+! List Interface in Java Collections Framework
+The List interface in Java is a part of the Java Collections Framework and represents an ordered collection (also known as a sequence). It allows duplicate elements and maintains the insertion order. The List interface provides various methods to manipulate the elements in the list, such as adding, removing, and accessing elements.
+
+? Key Features of List Interface:
+1. Ordered Collection: The List interface maintains the order of elements as they were inserted.
+
+2. Allows Duplicates: The List interface allows duplicate elements, meaning you can have multiple occurrences of the same element in a list.
+
+3. Index-Based Access: The List interface provides methods to access elements based on their index, allowing you to retrieve, update, or remove elements at specific positions.
+
+4. Dynamic Size: The List interface can grow or shrink dynamically as elements are added or removed from the list.
+
+5. Implementations: The List interface has several implementations, including ArrayList, LinkedList, and Vector, each with its own characteristics and performance trade-offs.
+
+~ Common Methods in List Interface:
+- add(E e): Adds an element to the end of the list.
+- add(int index, E element): Inserts an element at the specified position in the list.
+- get(int index): Retrieves the element at the specified position in the list.
+- remove(int index): Removes the element at the specified position in the list.
+- size(): Returns the number of elements in the list.
+- clear(): Removes all elements from the list.
+- contains(Object o): Checks if the list contains the specified element.
+- indexOf(Object o): Returns the index of the first occurrence of the specified element in the list, or -1 if the list does not contain the element.
+- lastIndexOf(Object o): Returns the index of the last occurrence of the specified element in the list, or -1 if the list does not contain the element.
+- toArray(): Returns an array containing all elements in the list in proper sequence (from first to last element).
+- iterator(): Returns an iterator over the elements in the list in proper sequence.
+
+
+*/
