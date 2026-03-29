@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+import java.util.*;
 class Node {
     int data;
     Node next;
@@ -8,7 +8,7 @@ class Node {
         this.next = null;
     }
 }
-public class LinkList {
+public class LinkList<T> {
     public static void main(String[] args) {
        LinkedList<Integer> list = new LinkedList<>();   
        list.add(10);
@@ -29,6 +29,11 @@ public class LinkList {
        list.addFirst(10);
        list.addLast(20);
        System.out.println(list);  //Output : [10,20]
+
+       LinkedList<String> list2=new LinkedList<>(Arrays.asList("A","B","C"));
+       LinkedList<String> list3=new LinkedList<>(Arrays.asList("X","B","Z"));
+       list2.removeAll(list3);  //ye list2 me se list3 ke elements ko remove kar deta hai
+       System.out.println(list2);  //Output :[A,C]
 
     }
 }
